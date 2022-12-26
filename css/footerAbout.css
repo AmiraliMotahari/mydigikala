@@ -1,0 +1,82 @@
+@import 'settings.css';
+
+section.footerAbout{
+    width: 100%;
+    padding: 32px 0;
+    background-color: white;
+    box-shadow: 0 -2px 0px rgba(0, 0, 0, 0.05),0 2px 0px rgba(0, 0, 0, 0.05);
+    direction: rtl;
+}
+section.footerAbout>div.text{
+    display: inline-block;
+    width: 50.5%;
+    text-align: right;
+}
+section.footerAbout>div.text>h1{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 8px;
+}
+section.footerAbout>div.text>p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #81858B;
+    text-align: justify;
+    line-height: 32px;
+    word-spacing: 2px;
+}
+section.footerAbout>div.text>a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(130, 133, 138);
+    text-align: center;
+}
+section.footerAbout>div.text>a::after{
+    content: ">";
+    font-size: 16px;
+    font-weight: 700;
+    color: #81858B;
+    margin-right: 10px;
+}
+div.licenses{
+    display: inline-block;
+    width: 48.5%;
+    vertical-align: top;
+    direction: ltr;
+}
+div.licenses>div.license{
+    display: inline-block;
+    width: 109px;
+    height: 109px;
+    border-radius: 10px;
+    margin-left: 8px;
+    border: 1px solid rgb(224, 224, 226);
+}
+div.licenses>div.license>a{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    padding: 17px 17px;
+}
+div.licenses>div.license>a>img{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+section.copyRight{
+    width: 100%;
+    margin: 32px 0;
+    direction: rtl;
+}
+section.copyRight>p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #81858B;
+    text-align: center;
+    line-height: 32px;
+    word-spacing: 1px;
+}

@@ -1,0 +1,22 @@
+@import 'settings.css';
+
+section.supportFooter{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 0 0;
+    padding: 0 10px;
+    direction: rtl;
+}
+section.supportFooter>div.supportNum,section.supportFooter>div.supportTag,section.supportFooter>div.vLine{
+    width: auto;
+    height: inherit;
+    display: inline-block;
+    padding: 0 10px;
+}
+section.supportFooter>div.supportNum>span,section.supportFooter>div.supportTag>span,section.supportFooter>div.vLine>span{
+    text-align: right;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #424750;
+}

@@ -1,0 +1,31 @@
+@import 'settings.css';
+
+section.betweenFooter{
+    width: 100%;
+    text-align: center;
+    direction: rtl;
+    margin: 32px 0;
+}
+section.betweenFooter>div.content{
+    width: calc(19.7%);
+    height: auto;
+    display: inline-block;
+    padding: 12px 0;
+}
+section.betweenFooter>div.content>a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+section.betweenFooter>div.content>a>img{
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    display: inline-block;
+}
+section.betweenFooter>div.content>a>span{
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    color: #424750;
+}

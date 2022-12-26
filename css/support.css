@@ -1,0 +1,16 @@
+@import 'settings.css';
+
+section.support{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    background-color: #ef4056;
+    z-index: 999999;
+    bottom: 10px;
+    left: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    font-size: 24px;
+    color: white;
+}

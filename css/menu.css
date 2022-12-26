@@ -1,0 +1,319 @@
+@import 'settings.css';
+@font-face {
+    font-family: faFont;
+    src: url(../fonts/YekanV3/Yekan.woff);
+  }
+
+section.menu{
+    width: 100%;
+    height: 40px;
+    padding: 0 16px;
+    position: absolute;
+    z-index: 999998;
+    top: 68px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+section.menu>nav{
+    width: inherit;
+    height: inherit;
+    direction: rtl;
+    position: relative;
+}
+section.menu>nav>div.main{
+    width: 861.02px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+section.menu>nav>div.main>div.right{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    position: relative;
+    transition: 300ms;
+}
+section.menu>nav>div.main>div.right>a{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(67, 71, 79);
+}
+section.menu>nav>div.main>div.right>a>span{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(67, 71, 79);
+}
+section.menu>nav>div.main>div.middle{
+    width: auto;
+    height: inherit;
+    display: inline-block;
+}
+section.menu>nav>div.main>div.middle::before,section.menu>nav>div.main>div.middle::after{
+    content: "|";
+    color: rgb(224, 224, 226);
+    font-size: 16px;
+}
+section.menu>nav>div.main>div.middle>div.s1{
+    width: auto;
+    height: inherit;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 300ms;
+}
+section.menu>nav>div.main>div.middle>div.s1>a{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(99, 102, 108);
+}
+section.menu>nav>div.main>div.middle>div.s1>a>span{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(161, 163, 168);
+}
+section.menu>nav>div.main>div.left{
+    width: auto;
+    height: inherit;
+    display: inline-block;
+}
+section.menu>nav>div.main>div.left>div.s1{
+    width: auto;
+    height: inherit;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 300ms;
+}
+section.menu>nav>div.main>div.left>div.s1>a{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(99, 102, 108);
+}
+section.menu>nav>div.main>div.right:hover,section.menu>nav>div.main>div.middle>div.s1:hover,section.menu>nav>div.main>div.left>div.s1:hover{
+    border-bottom: 2px solid rgb(220, 73, 83);
+}
+section.menu>nav>div.selectCity{
+    display: inline-block;
+    width: 173.13px;
+    height: inherit;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section.menu>nav>div.selectCity>label[for=show]{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(42, 47, 50);
+    cursor: pointer;
+}
+section.menu>nav>div.selectCity>label[for=show]>span{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(42, 47, 50);
+}
+/* sub menu */
+/* sub menu */
+/* sub menu */
+/* sub menu */
+/* sub menu */
+/* sub menu */
+/* sub menu */
+/* sub menu */
+/* sub menu */
+section.menu>nav>div.main>div.right>div.submenu{
+    width: 100vw;
+    height: calc(100vh - 108px);
+    position: absolute;
+    right: -16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    box-shadow:0 -2px 5px rgba(0, 0, 0, 0.05) ;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime{
+    width: 98vw;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    right: calc(50% - 98vw / 2);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight{
+    width: 199px;
+    box-shadow:-1px 0px 2px rgba(0, 0, 0, 0.05) ;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel{
+    width: inherit;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>a{
+    width: inherit;
+    height: 52.04px;
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    line-height: 52.04px;
+    color: #0c0c0c;
+    font-weight: 700;
+    font-size: 12px;
+    font-weight: 700;
+    transition: 500ms;
+    padding: 0 10px 0 0;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>a>span{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>a:hover{
+    background-color: #f0f0f180;
+    color: rgb(220, 73, 83);
+    transition: 300ms;
+}
+section.menu>nav>div.main>div.right:hover>div.submenu{
+    display: block;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle{
+    display: inline-block;
+    width: calc(100% - 199px);
+    height: 100%;
+    position:absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow:1px 0px 2px rgba(0, 0, 0, 0.05) ;
+    display: none;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midTop{
+    display: inline-block;
+    width: 100%;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midTop>a{
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    line-height: 26.04px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(42, 47, 50);
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midTop>a>span{
+    display: inline-block;
+    margin-right: 10px;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot{
+    display: inline-block;
+    width: 100%;
+    height: calc(100% - 26.04px);
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col1,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col2,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col3,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col4{
+    display: inline-block;
+    width: 241.25px;
+    margin: 0 0 0 10px;
+    vertical-align: top;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col1>div.cel,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col2>div.cel,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col3>div.cel,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col4>div.cel{
+    width: auto;
+    text-align: right;
+    margin-bottom: 10px;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col1>div.cel>a,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col2>div.cel>a,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col3>div.cel>a,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col4>div.cel>a{
+    display: block;
+    width: auto;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #81858B;
+    transition: 300ms;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col1>div.cel>a>span,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col2>div.cel>a>span,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col3>div.cel>a>span,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col4>div.cel>a>span{
+    margin-left: 10px;
+    color: #EF4050;
+    
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col1>div.cel:nth-of-type(1)>a,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(1)>a,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(7)>a,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(14)>a,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col3>div.cel:nth-of-type(6)>a{
+    color: #0C0C0C;
+    font-size: 14px;
+    font-weight: 700;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col1>div.cel:nth-of-type(1)>a::after,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(1)>a::after,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(7)>a::after,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(14)>a::after,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col3>div.cel:nth-of-type(6)>a::after{
+    content: ">";
+    margin-right: 10px;
+}
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col1>div.cel>a:hover,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col2>div.cel>a:hover,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col3>div.cel>a:hover,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col4>div.cel>a:hover{
+    color: rgb(220, 73, 83);
+    transition: 300ms;
+}
+/* section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>*>div.cel>a:hover{
+    color: rgb(220, 73, 83);
+    transition: 300ms;
+} */
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.HovDgital:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovCar:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovFashion:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMarket:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovToys:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovLocal:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovHealth:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovHome:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovBook:hover>div.primMiddle,
+section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovSport:hover>div.primMiddle,
+section.menu>nav>div.main>div.right:hover>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle{
+    display: inline-block;
+}
+/* section.menu>nav>div.main>div.right:hover>div.submenu>div.prime>div.primRight>div.rightel:first-of-type>a{
+    background-color: #f0f0f180;
+    color: rgb(220, 73, 83);
+    transition: 300ms;
+} */
+/* section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.HovDgital:hover>a{
+    background: rgb(255, 0, 0);
+    color: #0C0C0C;
+} */

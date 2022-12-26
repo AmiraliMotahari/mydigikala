@@ -1,0 +1,77 @@
+@import 'settings.css';
+
+section.footerAd{
+    width: 100%;
+    height: 76px;
+    margin-bottom: 28px;
+    padding: 8px 20px;
+    background-color: rgb(63, 76, 106);
+    border-radius: 10px;
+    direction: rtl;
+    position: relative;
+
+}
+section.footerAd>div.logo{
+    display: inline-block;
+    height: 60px;
+    padding: 8px 0;
+    position: absolute;
+    right: 20px;
+}
+section.footerAd>div.logo>img{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+}
+section.footerAd>div.logo>h3{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    margin-right: 16px;
+}
+section.footerAd>div.stors{
+    display: inline-block;
+    /* width: 1119px; */
+    height: 60px;
+    padding: 8px 0;
+    vertical-align: top;
+    text-align: left;
+    direction: ltr;
+    position: absolute;
+    left: 80px;
+}
+section.footerAd>div.stors>a{
+    width: 142px;
+    height: 44px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 5px;
+}
+section.footerAd>div.stors>a>img{
+    width: 142px;
+    height: 44px;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 5px;
+}
+section.footerAd>div.more{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 76px;
+    text-align: center;
+    position: absolute;
+    top: calc(50% - 44px / 2);
+    left: 20px;
+}
+section.footerAd>div.more>span{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(63, 76, 106);
+    transform: translateY(-8px);
+}

@@ -1,0 +1,81 @@
+@import 'settings.css';
+
+section.bottomFooter{
+    width: 100%;
+    margin-bottom: 32px;
+    text-align: center;
+    direction: rtl;
+}
+section.bottomFooter>div.container,section.bottomFooter>div.lastcol{
+    width: calc(24.5%);
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+section.bottomFooter>div.container>p,section.bottomFooter>div.lastcol>h4{
+    color: #424750;
+    font-size: 16px;
+    font-weight: 700;
+    /* padding: 0 0 8px; */
+    margin: 0 0 12px;
+}
+
+section.bottomFooter>div.container>a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #81858B;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 8px;
+}
+section.bottomFooter>div.lastcol>div.socialNetwork{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 32px;
+}
+section.bottomFooter>div.lastcol>div.socialNetwork>a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 32px;
+    padding: 0 5px 0 0;
+}
+section.bottomFooter>div.lastcol>div.socialNetwork>a>span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: #81858B;
+}
+section.bottomFooter>div.lastcol>form{
+    width: 100%;
+}
+section.bottomFooter>div.lastcol>form>input[type=email]{
+    all: unset;
+    display: inline-block;
+    width: 74.5%;
+    height: 48px;
+    padding: 0 8px;
+    background-color: #f0f0f1;
+    border-radius: 10px;
+    color: rgb(161, 163, 168);
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 48px;
+}
+section.bottomFooter>div.lastcol>form>button[type=submit]{
+    all: unset;
+    display: inline-block;
+    width: 19.5%;
+    height: 48px;
+    color: white;
+    background-color: rgb(224, 224, 226);
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid rgb(224, 224, 226);
+}

@@ -1,0 +1,50 @@
+@import 'settings.css';
+footer{
+    margin-top: 20px;
+    box-shadow: 0 -1px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 20px 0 20px;
+}
+section.footerTop{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    line-height: 40px;
+    direction: rtl;
+    padding: 0 20px;
+    position: relative;
+}
+section.footerTop>div.logo{
+    width: auto;
+    height: inherit;
+    display: inline-block;
+}
+section.footerTop>div.logo>img{
+    width: 113.33px;
+    height: 30px;
+}
+section.footerTop>div.backToTop{
+    display: inline-block;
+    width: 138.2px;
+    height: inherit;
+    position: absolute;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 226);
+}
+section.footerTop>div.backToTop>a{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(161, 163, 168);
+    vertical-align: top;
+    line-height: 40px;
+    border-radius: 10px;
+}
+section.footerTop>div.backToTop>a::after{
+    content: "^";
+    margin-right: 10px;
+}

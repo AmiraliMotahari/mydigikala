@@ -1,0 +1,108 @@
+@import 'settings.css';
+
+section.digiSuggestion{
+    margin: 12px 96px;
+    padding: 16px;
+    text-align: center;
+}
+section.digiSuggestion>div.head{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    color: #0c0c0c;
+    margin-bottom: 10px;
+}
+section.digiSuggestion>div.content{
+    display: inline-block;
+    position: relative;
+    direction: rtl;
+    border: 1px solid rgb(240, 240, 241);
+    border-radius: 10px;
+}
+section.digiSuggestion>div.content>a{
+    display: inline-block;
+    width: calc(100% / 7 - 3px);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    /* direction: rtl; */
+    background-color: white;
+}
+section.digiSuggestion>div.content>a>div.frame{
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 12px;
+    text-align: center;
+}
+section.digiSuggestion>div.content>a>div.frame>img{
+    display: inline-block;
+    width: 100%;
+    /* height: 60px; */
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 5px;
+}
+section.digiSuggestion>div.content>a>h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #232933;
+}
+section.digiSuggestion>div.content>div.hLine{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: calc(50% - 1px / 2);
+    left: 0;
+}
+section.digiSuggestion>div.content>div.vLine1{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 7 - 3px);
+}
+section.digiSuggestion>div.content>div.vLine2{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 7 * 2 - 3px);
+}
+section.digiSuggestion>div.content>div.vLine3{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 7 * 3 - 3px);
+}
+section.digiSuggestion>div.content>div.vLine4{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 7 * 4 - 3px);
+}
+section.digiSuggestion>div.content>div.vLine5{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 7 * 5 - 3px);
+}
+section.digiSuggestion>div.content>div.vLine6{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 7 * 6 - 3px);
+}
