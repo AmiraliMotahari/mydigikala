@@ -3,12 +3,13 @@
 section.slider{
     width: 100%;
     height: 400px;
+    position: relative;
+    top: 108px;
 }
 div.swiper {
     width: 100%;
     height: 100%;
   }
-
 div.swiper-slide {
     text-align: center;
     font-size: 18px;
