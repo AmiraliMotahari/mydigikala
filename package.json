@@ -1,0 +1,11 @@
+{
+  "name": "mydigikala",
+  "version": "1.0.0",
+  "description": "this is a copy of digikala website only for education use\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[Cwhich \u001b[C\u001b\u001b[C\u001b[Cis\u001b[C\u001b[C\u001b[Dfor \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[ education and fun!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amirali Motahari",
+  "license": "ISC"
+}
