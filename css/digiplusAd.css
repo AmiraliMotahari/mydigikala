@@ -1,0 +1,136 @@
+@import 'settings.css';
+
+section.digiplusAd{
+    margin: 12px 96px;
+    padding: 16px;
+    background-color: rgb(136,42,124);
+    border-radius: 10px;
+    text-align: center;
+    direction: rtl;
+    position: relative;
+}
+section.digiplusAd>div.logo{
+    display: inline-block;
+    width: calc(100% / 3 - 10px);
+    text-align: center;
+    padding: 24px 0;
+    vertical-align: top;
+}
+section.digiplusAd>div.logo>a{
+    display: block;
+    text-decoration: none;
+    width: 128px;
+    height: 32px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+section.digiplusAd>div.logo>a>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+section.digiplusAd>div.logo>h4{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+}
+section.digiplusAd>div.logo>div.singin{
+    text-align: right;
+    margin-top: 20px;
+}
+section.digiplusAd>div.logo>div.singin>a{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 16px;
+    font-size: 12px;
+    font-weight: 700;
+}
+section.digiplusAd>div.logo>div.singin>a>span{
+    color: white;
+    margin-right: 10px;
+}
+section.digiplusAd>div.logo>div.singin>a:active{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(136,42,124);
+    border: 1px solid rgb(136,42,124);
+}
+section.digiplusAd>div.logo>div.singin>a:active>span{
+    color: rgb(136,42,124);
+}
+section.digiplusAd>div.logo>div.widget{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 55px;
+}
+section.digiplusAd>div.logo>div.widget>img{
+    width: 384px;
+    object-fit: cover;
+}
+section.digiplusAd>div.container{
+    display: inline-block;
+    width: calc(100% / 3 - 10px);
+    background-color: white;
+    padding: 16px;
+    position: relative;
+    margin-left: 5px;
+}
+section.digiplusAd>div.rr{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+section.digiplusAd>div.lr{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+section.digiplusAd>div.container>div.head{
+    position: relative;
+    width: 100%;
+}
+section.digiplusAd>div.container>div.head>h4{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0c0c0c;
+}
+section.digiplusAd>div.container>div.head>h4>span{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+section.digiplusAd>div.container>div.head>a{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #a63489;
+}
+section.digiplusAd>div.container>div.head>a::after{
+    content: ">";
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #a63489;
+}
+section.digiplusAd>div.container>div.body{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+section.digiplusAd>div.container>div.body>a{
+    display: inline-block;
+    text-decoration: none;
+    width: calc(100% / 3 - 5px);
+}
+section.digiplusAd>div.container>div.body>a>img{
+    width: 100%;
+    object-fit: cover;
+}

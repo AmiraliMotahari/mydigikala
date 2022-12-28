@@ -8,11 +8,19 @@ section.digiPick{
     border-radius: 10px;
 }
 section.digiPick>div.head{
+    margin: 20px 0;
+}
+section.digiPick>div.head>h3{
     text-align: center;
     font-size: 21px;
     font-weight: 700;
     color: #0c0c0c;
-    margin-bottom: 10px;
+}
+section.digiPick>div.head>h3>span{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 21px;
+    color: #ef4056;
 }
 section.digiPick>div.content{
     width: 100%;
