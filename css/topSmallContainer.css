@@ -1,8 +1,7 @@
-@import 'settings.css';
+/* @import 'settings.css';
 
 section.topSmallContainerArea{
     width: 100%;
-    height: auto;
     padding: 24px 0;
     margin: 0 auto;
     direction: rtl;
@@ -36,4 +35,25 @@ section.topSmallContainerArea>div.container>div.content>a>img{
 }
 section.topSmallContainerArea>div.container>div.content>a>img>span{
     display: block;
+} */
+
+section.topSmallContainerArea{
+    margin: 24px 96px;
+    padding: 24px 0;
+    text-align: center;
+    direction: rtl;
+}
+section.topSmallContainerArea>a{
+    display: inline-block;
+    width: calc(100% / 21 - 10px);
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    color: #0c0c0c;
+    margin: 0 50px;
+}
+section.topSmallContainerArea>a>img{
+    width: 100%;
+    object-fit: cover;
 }
