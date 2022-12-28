@@ -1,0 +1,148 @@
+@import 'settings.css';
+
+section.digiPick{
+    margin: 12px 96px;
+    padding: 0 16px;
+    text-align: center;
+    border: 1px solid rgb(240, 240, 241);
+    border-radius: 10px;
+}
+section.digiPick>div.head{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    color: #0c0c0c;
+    margin-bottom: 10px;
+}
+section.digiPick>div.content{
+    width: 100%;
+    position: relative;
+}
+section.digiPick>div.content>a{
+    display: inline-block;
+    width: calc(100% / 6 - 3px);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+section.digiPick>div.content>a>img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+section.digiPick>div.content>a>h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #232933;
+    position: relative;
+    line-height: 20px;
+    text-align: left;
+}
+section.digiPick>div.content>a>h4::after{
+    position: absolute;
+    width: 34px;
+    padding: 0 4px;
+    background-color: #ef4056;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    content: "۳۰\0025";
+    right: 0;
+}
+section.digiPick>div.content>a>h4::before{
+    background: url('../img/toman.png'), center center no-repeat; 
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    content: " ";
+    display: inline-block;
+    vertical-align: top;
+}
+section.digiPick>div.content>a>span{
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #c0c2c5;
+    position: relative;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration:line-through;
+}
+section.digiPick>div.content>div.hLine1{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: calc(100% / 3 - 1px / 2);
+    left: 0;
+}
+section.digiPick>div.content>div.hLine2{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: calc(100% * 2 / 3 - 1px / 2);
+    left: 0;
+}
+section.digiPick>div.content>div.vLine1{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 6 - 3px);
+}
+section.digiPick>div.content>div.vLine2{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 6 * 2 - 3px);
+}
+section.digiPick>div.content>div.vLine3{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 6 * 3 - 3px);
+}
+section.digiPick>div.content>div.vLine4{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 6 * 4 - 3px);
+}
+section.digiPick>div.content>div.vLine5{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    top: 0;
+    left: calc(100% / 6 * 5 - 3px);
+}
+section.digiPick>div.foot{
+    margin: 10px 0 20px;
+}
+section.digiPick>div.foot>a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #19bfd3;
+}
+section.digiPick>div.foot>a::before{
+    content: "<";
+    font-size: 20px;
+    font-weight: 900;
+    color: #19bfd3;
+    margin-right: 10px;
+}

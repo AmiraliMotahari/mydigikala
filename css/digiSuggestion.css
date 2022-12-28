@@ -40,7 +40,6 @@ section.digiSuggestion>div.content>a>div.frame{
 section.digiSuggestion>div.content>a>div.frame>img{
     display: inline-block;
     width: 100%;
-    /* height: 60px; */
     object-fit: cover;
     vertical-align: bottom;
     border-radius: 5px;
