@@ -20,3 +20,6 @@ section.supportFooter>div.supportNum>span,section.supportFooter>div.supportTag>s
     font-weight: 400;
     color: #424750;
 }
+section.supportFooter{
+    direction: rtl;
+}
