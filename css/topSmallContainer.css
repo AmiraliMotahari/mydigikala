@@ -1,41 +1,4 @@
-/* @import 'settings.css';
-
-section.topSmallContainerArea{
-    width: 100%;
-    padding: 24px 0;
-    margin: 0 auto;
-    direction: rtl;
-}
-section.topSmallContainerArea>div.container{
-    width: auto;
-    height: auto;
-    margin: 0 96px;
-    padding: 8px 12px;
-}
-section.topSmallContainerArea>div.container>div.content{
-    width: auto;
-    display: inline-block;
-    text-align: center;
-    margin: 0 50px;
-}
-section.topSmallContainerArea>div.container>div.content>a{
-    display: inline-block;
-    width: auto;
-    text-decoration: none;
-    text-align: center;
-    font-size: 11px;
-    font-weight: 500;
-    color: #0c0c0c;
-}
-section.topSmallContainerArea>div.container>div.content>a>img{
-    width: 52px;
-    height: 52px;
-    display: block;
-    margin: 0 auto;
-}
-section.topSmallContainerArea>div.container>div.content>a>img>span{
-    display: block;
-} */
+@import 'settings.css';
 
 section.topSmallContainerArea{
     margin: 24px 96px;
