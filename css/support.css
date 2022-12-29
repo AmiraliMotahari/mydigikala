@@ -50,7 +50,7 @@ section.support>div.supportBlockBackgroond>div.blockMain{
     position: absolute;
     bottom: 78px;
     left: 50px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px solid #ef4056;
     /* padding: 12px 8px 20px; */
 }
@@ -59,8 +59,8 @@ section.support>div.supportBlockBackgroond>div.blockMain>div.head{
     background-color: #ef4056;
     padding: 8px 20px;
     text-align: right;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 section.support>div.supportBlockBackgroond>div.blockMain>div.head>h2{
     font-size: 19px;

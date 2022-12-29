@@ -36,6 +36,7 @@ section.menu>nav>div.main>div.right{
     height: inherit;
     position: relative;
     transition: 300ms;
+    padding-left: 10px;
 }
 section.menu>nav>div.main>div.right>a{
     display: inline-block;
@@ -216,6 +217,7 @@ section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.righ
     padding: 20px;
     box-shadow:1px 0px 2px rgba(0, 0, 0, 0.05) ;
     display: none;
+    border-bottom-left-radius: 10px;
 }
 section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midTop{
     display: inline-block;
@@ -305,12 +307,5 @@ section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovS
 section.menu>nav>div.main>div.right:hover>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle{
     display: inline-block;
 }
-/* section.menu>nav>div.main>div.right:hover>div.submenu>div.prime>div.primRight>div.rightel:first-of-type>a{
-    background-color: #f0f0f180;
-    color: rgb(220, 73, 83);
-    transition: 300ms;
-} */
-/* section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.HovDgital:hover>a{
-    background: rgb(255, 0, 0);
-    color: #0C0C0C;
-} */
+
+

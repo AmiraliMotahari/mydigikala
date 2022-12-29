@@ -1,0 +1,73 @@
+@import 'settings.css';
+
+#showSearchBox,#hideSearchBox{
+    display: none;
+}
+section.searchingBlock>div.searchBlock{
+    width: 100vw;
+    height: calc(100vh - 108px);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+    top: 108px;
+    left: 0;
+    z-index: 999999;
+}
+section.searchingBlock>div.searchBlock>label[for=hideSearchBox]{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+#showSearchBox:checked ~ div.searchBlock{
+    display: block;
+}
+#hideSearchBox:checked ~ div.searchBlock{
+    display: none;
+}
+section.searchingBlock>div.searchBlock>div.mainBlock{
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    top: -96px;
+    right: 148px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14), 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+section.searchingBlock>div.searchBlock>div.mainBlock>div.top{
+    width: 100%;
+    height: 44px;
+    direction: rtl;
+    padding: 4px 16px;
+    border-bottom: 1px solid #19bfd3;
+}
+section.searchingBlock>div.searchBlock>div.mainBlock>div.top>span{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: rgb(66,71,80);
+}
+section.searchingBlock>div.searchBlock>div.mainBlock>div.top>input[type=text]{
+    width: calc(100% - 40px);
+    all: unset;
+    font-size: 12px;
+    color: rgb(66,71,80);
+    line-height: 16px;
+}
+section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender{
+    width: 100%;
+    padding: 20px 16px 8px;
+    direction: rtl;
+    cursor: pointer;
+}
+section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender>span{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(161,163,168);
+    margin-left: 10px;
+}
+section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender>h2{
+    display: inline;
+    font-size: 15px;
+    font-weight: 700;
+    color: #424750;
+}

@@ -70,9 +70,7 @@
             </div>
             <div class="searchArea">
                 <div class="search">
-                    <span class="fa-solid fa-magnifying-glass"></span>
-                    <label for="show">جستجو</label>
-                    <!-- <input type="radio" id="show"> -->
+                    <label for="showSearchBox"><span class="fa-solid fa-magnifying-glass"></span>جستجو</label>
                 </div>
             </div>
             <div class="searchBoxLeft">
@@ -85,16 +83,33 @@
                 </div>
             </div>
         </section>
+        <section class="searchingBlock" id="block">
+            <input type="radio" name="searchBox" id="showSearchBox">
+                    <input type="radio" name="searchBox" id="hideSearchBox">
+                    <div class="searchBlock">
+                        <label for="hideSearchBox"></label>
+                        <div class="mainBlock" id="exitButton">
+                            <div class="top" >
+                                <span class="fa-solid fa-magnifying-glass"></span>
+                                <input type="text" name="searchtext" placeholder="جستوجو">
+                            </div>
+                            <div class="searchRecomender">
+                                <span class="fa-solid fa-fire-flame-curved"></span>
+                                <h2>جستجوهای پرطرفدار</h2>
+                            </div>
+                        </div>
+                    </div>
+        </section>
         <section class="menu">
             <nav>
                 <div class="main">
-                    <div class="right">
+                    <div class="right" id="menuActivator">
                         <a href="#"><span class="fa-solid fa-bars"></span>دسته بندی کالاها</a>
-                        <div class="submenu">
+                        <div class="submenu" id="menuExit">
                             <div class="prime">
                                 <div class="primRight">
                                     <div class="rightel hovMobile">
-                                        <a href="#"><span class="fa-light fa-mobile-button"></span>موبایل</a>
+                                        <a id="fsh" href="#"><span class="fa-light fa-mobile-button"></span>موبایل</a>
                                         <div class="primMiddle">
                                             <div class="midTop">
                                                 <a href="#">همه محصولات موبایل<span>&gt;</span></a>
@@ -2467,6 +2482,41 @@
         emIn.addEventListener("input",function(params){
             document.getElementById("rigBut").style.backgroundColor="#ef4056";
         })
+
+        //exiting the search box
+        let exitButton = document.getElementById("exitButton");
+        exitButton.addEventListener("mouseleave", myFunction);
+
+        function myFunction() {
+            radio = document.querySelector('input[type=radio][id=showSearchBox]:checked');
+            radio.checked = false
+        }
+
+        //exiting the menu
+        // let menuActivator = document.getElementById("menuActivator");
+        // menuActivator.addEventListener("mouseleave", myFunctiontwo);
+
+        // function myFunctiontwo() {
+        //     l1 = document.querySelector('[id=menuExit]:hover');
+        //     l1.hover = false
+        // }
+
+        //selecting the first item of the sub menu
+        let x = document.getElementById("menuActivator");
+        x.addEventListener("mouseenter", myFunctionthree);
+
+        let y = document.getElementById("fsh");
+        y.addEventListener("mouseout", myFunctionfour);
+
+        function myFunctionthree() {
+            document.getElementById("fsh").style.backgroundColor="#f0f0f180";
+            document.getElementById("fsh").style.color="rgb(220, 73, 83)";
+            document.getElementById("fsh").style.transition="300ms";
+        }
+        function myFunctionfour() {
+            document.getElementById("fsh").style.backgroundColor="";
+            document.getElementById("fsh").style.color="";
+        }
     </script>
 
      <!-- Swiper JS -->

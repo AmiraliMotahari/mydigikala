@@ -62,13 +62,23 @@ section.searchBox>div.searchArea>div.search>span{
     height: 24px;
     cursor: pointer;
 }
-section.searchBox>div.searchArea>div.search>label[for=show]{
+section.searchBox>div.searchArea>div.search>label[for=showSearchBox]{
     display: inline-block;
-    margin: 0 5px;
-    color: rgb(161, 163, 168);
+    color: #81858b;
+    font-size: 12px;
+    font-weight: 400px;
+    text-align: right;
+    width: 100%;
+    vertical-align: top;
+    line-height: 44px;
 }
-#show{
-    display: hide;
+section.searchBox>div.searchArea>div.search>label[for=showSearchBox]>span{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #a1a3a8;
+    position: relative;
+    top: 5px;
 }
 section.searchBox>div.searchBoxLeft{
     display: inline-block;
