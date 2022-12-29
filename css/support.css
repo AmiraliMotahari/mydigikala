@@ -27,13 +27,14 @@ section.support>label[for=showSupportBlock]>span{
 #showSupportBlock,#hideSupportBlock{
     display: none;
 }
-section.supportBlock>div.supportBlockBackgroond{
+section.support>div.supportBlockBackgroond{
     width: 100vw;
     height: 100vh;
     display: none;
+    /* background-color: #ef4056; */
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
+    left: -100%;
     z-index: 999999;
 }
 #showSupportBlock:checked ~ div.supportBlockBackgroond{
@@ -42,7 +43,7 @@ section.supportBlock>div.supportBlockBackgroond{
 #hideSupportBlock:checked ~ div.supportBlockBackgroond{
     display: none;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain{
+section.support>div.supportBlockBackgroond>div.blockMain{
     width: calc(100vw / calc(1536 / 358));
     height: calc(100vh / 1.4);
     background-color: white;
@@ -53,7 +54,7 @@ section.supportBlock>div.supportBlockBackgroond>div.blockMain{
     border: 1px solid #ef4056;
     /* padding: 12px 8px 20px; */
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.head{
+section.support>div.supportBlockBackgroond>div.blockMain>div.head{
     width: 100%;
     background-color: #ef4056;
     padding: 8px 20px;
@@ -61,12 +62,12 @@ section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.head{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.head>h2{
+section.support>div.supportBlockBackgroond>div.blockMain>div.head>h2{
     font-size: 19px;
     font-weight: 700;
     color: white;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.head>label[for=hideSupportBlock]{
+section.support>div.supportBlockBackgroond>div.blockMain>div.head>label[for=hideSupportBlock]{
     display: block;
     width: 24px;
     height: 24px;
@@ -79,16 +80,16 @@ section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.head>label[for
     top: 18px;
     left: 20px;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.head>label[for=hideSupportBlock]>span{
+section.support>div.supportBlockBackgroond>div.blockMain>div.head>label[for=hideSupportBlock]>span{
     vertical-align: top;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body{
     width: 100%;
     height: calc(100% - 55px);
     padding: 12px 8px 20px;
     overflow: scroll;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>h3{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>h3{
     text-align: right;
     direction: rtl;
     font-size: 19px;
@@ -96,31 +97,31 @@ section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>h3{
     margin-bottom: 4px;
     color: black;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>h4{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>h4{
     text-align: right;
     direction: rtl;
     font-size: 14px;
     font-weight: 700;
     color: black;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.content{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content{
     width: 100%;
     border: 1px solid #e0e0e2;
     border-radius: 10px;
     margin-bottom: 10px;
     text-align: right;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.content:first-of-type{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content:first-of-type{
     margin-top: 30px;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details{
     display: inline-block;
     direction: rtl;
     text-align: right;
     position: relative;
     width: 95%;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details>summary{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details>summary{
     all: unset;
     display: inline-block;
     padding: 12px;
@@ -128,7 +129,7 @@ section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.conte
     font-weight: 700;
     color: black;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details>summary::after{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details>summary::after{
     content: ">";
     position: absolute;
     top: 0;
@@ -137,25 +138,25 @@ section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.conte
     font-weight: 700;
     color: black;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details>p{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details>p{
     padding: 12px;
     border-top: 1px solid #e0e0e2;
     font-size: 14px;
     font-weight: 400;
     color: black;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom{
     margin: 20px 0 0 0;
     width: 100%;
     text-align: center;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom>h4{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom>h4{
     font-size: 14px;
     font-weight: 700;
     text-align: center;
     color: black;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom>a{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom>a{
     text-decoration: none;
     display: inline-block;
     /* width: 50%; */
@@ -170,7 +171,7 @@ section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.botto
     direction: rtl;
     position: relative;
 }
-section.supportBlock>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom>a::after{
+section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom>a::after{
     content: ">";
     position: absolute;
     top: 0;
