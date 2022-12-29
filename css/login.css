@@ -66,6 +66,9 @@ section.alpha>form>input[type=email]{
     line-height: 48px;
     margin: 16px 0;
 }
+section.alpha>form>input[type=email]:valid{
+    border: 2px solid rgb(0, 254, 30);
+}
 section.alpha>form>button[type=submit]{
     all: unset;
     width: 100%;

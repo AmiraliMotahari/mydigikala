@@ -9,7 +9,7 @@ section.menu{
     height: 40px;
     padding: 0 16px;
     position: absolute;
-    z-index: 999998;
+    z-index: 999997;
     top: 68px;
     left: 0;
     background-color: white;
@@ -116,22 +116,19 @@ section.menu>nav>div.main>div.left>div.s1>a{
     text-decoration: none;
     color: rgb(99, 102, 108);
 }
-section.menu>nav>div.main>div.right:hover,section.menu>nav>div.main>div.middle>div.s1:hover,section.menu>nav>div.main>div.left>div.s1:hover{
+section.menu>nav>section.menu>nav>div.main>div.right:hover,section.menu>nav>div.main>div.middle>div.s1:hover,section.menu>nav>div.main>div.left>div.s1:hover{
     border-bottom: 2px solid rgb(220, 73, 83);
 }
-section.menu>nav>div.selectCity{
+section.menu>nav>div.selectCityLabel{
     display: inline-block;
-    width: 173.13px;
-    height: inherit;
     vertical-align: top;
     position: absolute;
     top: 0;
     left: 0;
+    text-align: center;
 }
-section.menu>nav>div.selectCity>label[for=show]{
+section.menu>nav>div.selectCityLabel>label[for=showCitySelector]{
     display: inline-block;
-    width: auto;
-    height: inherit;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
@@ -139,7 +136,7 @@ section.menu>nav>div.selectCity>label[for=show]{
     color: rgb(42, 47, 50);
     cursor: pointer;
 }
-section.menu>nav>div.selectCity>label[for=show]>span{
+section.menu>nav>div.selectCityLabel>label[for=showCitySelector]>span{
     margin-left: 10px;
     font-size: 12px;
     font-weight: 400;

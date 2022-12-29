@@ -1,0 +1,98 @@
+@import 'settings.css';
+
+section.selectCity{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    direction: rtl
+}
+#showCitySelector,#hideCitySelector{
+    display: none;
+}
+div.citySelectorBlock{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#showCitySelector:checked ~ div.citySelectorBlock{
+    display: block;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain{
+    width: calc(100vw / calc(1536 / 460));
+    height: calc(100vh /1.25);
+    background-color: white;
+    position: absolute;
+    top: calc(50% - calc(100vh / 1.25) / 2);
+    left: calc(50% - calc(100vw / calc(1536 / 460)) / 2);
+    border-radius: 10px;
+    padding:  12px 20px;
+    /* overflow: scroll; */
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.head{
+    width: 100%;
+    padding: 0 0 10px;
+    border-bottom:1px solid #e0e0e2;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.head>h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0c0c0c;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.head>label[for=hideCitySelector]{
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #0c0c0c;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data{
+    width: 100%;
+    height: calc(100% - 43.5px);
+    padding: 16px 0;
+    overflow: scroll;
+    position: relative;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>div.top{
+    width: 100%;
+    padding: 12px;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>div.top>h2{
+    font-size: 15px;
+    font-weight: 400;
+    color: #19bfd3;
+    line-height: 24px;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>div.top>h2>span{
+    margin-left: 10px;
+    font-size: 24px;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>span{
+    display: block;
+    width: calc(100% - 40px);
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e2;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>span:last-of-type{
+    border: none;
+}
+section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>span::after{
+    content: ">";
+    position: absolute;
+    left: 0;
+    font-size: 24px;
+    font-weight: 900;
+    color: #0c0c0c;
+}
