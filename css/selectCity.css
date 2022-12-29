@@ -32,7 +32,6 @@ section.selectCity>div.citySelectorBlock>div.citySelectorMain{
     left: calc(50% - calc(100vw / calc(1536 / 460)) / 2);
     border-radius: 10px;
     padding:  12px 20px;
-    /* overflow: scroll; */
 }
 section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.head{
     width: 100%;
