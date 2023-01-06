@@ -1,0 +1,66 @@
+@import 'settings';
+
+section.slider3{
+    margin: 12px 96px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e2;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-left: 0.5px solid #e0e0e2;
+    padding: 10px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide:first-of-type{
+    border-left: unset;
+  }
+
+.swiper-slide a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  section.slider3>div.swiper {
+    width: 100%;
+    /* height: 300px; */
+    margin: 20px auto;
+  }
+  section.popular{
+    margin: 12px 96px;
+    padding: 0 16px;
+    text-align: center;
+    direction: rtl;
+  }
+  section.popular>h2{
+    font-size: 21px;
+    font-weight: 700;
+    color: #080A38;
+  }
+  section.popular>h2>span{
+    color: gold;
+    margin-left: 10px;
+    font-size: 24px;
+  }

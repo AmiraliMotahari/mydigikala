@@ -2168,6 +2168,36 @@
                 <div class="vLine6"></div>
             </div>
         </section>
+        <section class="popular">
+            <h2><span class="fa-light fa-star-christmas"></span>محبوب ترین برند ها</h2>
+        </section>
+        <section class="slider3">
+            <div #swiperRef="" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="#"><img src="img/s1jpg.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s2.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s3.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s4.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s5.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s6.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s7.jpeg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s8.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s9.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s10.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s12.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s13.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s6.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s7.jpeg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s8.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s9.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s10.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s12.jpg" alt="digiSuggestionImages"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/s13.jpg" alt="digiSuggestionImages"></a></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </section>
         <section class="digiplusAd">
             <div class="logo">
                 <a href="#"><img src="img/digiplusLogo.svg" alt="digipluslogo"></a>
@@ -2568,6 +2598,16 @@
       slidesPerView: 7,
       centeredSlides: true,
       spaceBetween: 5,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+//swiper3
+    var swiper2 = new Swiper('.mySwiper2', {
+      slidesPerView: 9,
+      centeredSlides: true,
+      spaceBetween: 0,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
