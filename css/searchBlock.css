@@ -25,7 +25,7 @@ section.searchingBlock>div.searchBlock>label[for=hideSearchBox]{
     display: none;
 }
 section.searchingBlock>div.searchBlock>div.mainBlock{
-    width: 600px;
+    width: calc(100% / 2.56);
     background-color: white;
     position: absolute;
     top: -96px;

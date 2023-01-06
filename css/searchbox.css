@@ -37,7 +37,7 @@ section.searchBox>div.searchBoxLogo>a>img{
 }
 section.searchBox>div.searchArea{
     display: inline-block;
-    /* width: 1161.75px; */
+    width: calc(100% / 2.56);
     height: 44px;
     vertical-align: top;
     direction: rtl;
@@ -48,7 +48,7 @@ section.searchBox>div.searchArea{
 }
 section.searchBox>div.searchArea>div.search{
     display: inline-block;
-    width: 600px;
+    width: 100%;
     height: inherit;
     padding: 0 16px;
     background-color: rgb(240, 240, 241);
