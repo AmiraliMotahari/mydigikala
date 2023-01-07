@@ -1,0 +1,61 @@
+@import 'settings.css';
+
+section.slider4{
+  margin: 12px 96px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #e0e0e2;
+}
+section.slider4 .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section.slider4 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  section.slider4 .swiper-slide>a{
+    direction: rtl;
+    display: flex;
+    flex: content;
+    background-color: red;
+  }
+  section.slider4 .swiper-slide>a>span{
+    display: block;
+    
+  }
+  section.slider4 .swiper-slide>a>img {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    align-items: center;
+  }
+  
+  section.slider4 div.swiper {
+    width: 100%;
+    /* height: 300px; */
+    margin: 20px auto;
+  }
