@@ -46,7 +46,7 @@ section.support>div.supportBlockBackgroond{
 section.support>div.supportBlockBackgroond>div.blockMain{
     width: calc(100vw / calc(1536 / 358));
     height: calc(100vh / 1.4);
-    background-color: white;
+    background-color: var(--brightMode);
     position: absolute;
     bottom: 78px;
     left: 50px;

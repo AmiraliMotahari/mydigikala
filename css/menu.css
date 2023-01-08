@@ -166,7 +166,7 @@ section.menu>nav>div.main>div.right>div.submenu>div.prime{
     width: 98vw;
     height: auto;
     position: absolute;
-    background-color: white;
+    background-color: var(--brightMode);
     top: 0;
     right: calc(50% - 98vw / 2);
     border-bottom-right-radius: 10px;
@@ -211,7 +211,7 @@ section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.righ
     width: calc(100% - 199px);
     height: 100%;
     position:absolute;
-    background-color: white;
+    background-color: var(--brightMode);
     top: 0;
     left: 0;
     padding: 20px;
