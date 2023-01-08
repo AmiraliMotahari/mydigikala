@@ -58,14 +58,14 @@ section.searchBox>div.searchArea>div.search{
 }
 section.searchBox>div.searchArea>div.search>span{
     display: inline-block;
-    color: rgb(161, 163, 168);
+    color: var(--t616368);
     width: 24px;
     height: 24px;
     cursor: pointer;
 }
 section.searchBox>div.searchArea>div.search>label[for=showSearchBox]{
     display: inline-block;
-    color: #81858b;
+    color: var(--t81858b);
     font-size: 12px;
     font-weight: 400px;
     text-align: right;
@@ -138,7 +138,7 @@ section.searchBox>div.searchBoxLeft>div.login>a{
     font-size: 12px;
     font-weight: 700;
     line-height: 40px;
-    color: #0c0c0c;
+    color: var(--c0c0c);
 }
 section.searchBox>div.searchBoxLeft>div.login>a>span{
     display: inline-block;
@@ -167,6 +167,6 @@ section.searchBox>div.searchBoxLeft>div.checkOut>a>span{
     display: inline-block;
     transform:rotateY(180deg);
     font-size: 20px;
-    color: rgb(67, 71, 79);
+    color: var(--t677179);
     line-height: 40px;
 }

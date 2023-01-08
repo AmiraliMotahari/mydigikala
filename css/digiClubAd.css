@@ -51,7 +51,7 @@ section.digiclubAd>div.container>a>span{
     direction: rtl;
 }
 section.digiclubAd>div.container>a>span>span{
-    color: #0c0c0c;
+    color: var(--c0c0c);
     margin-right: 10px;
 }
 section.digiclubAd>div.container>a:nth-of-type(1),section.digiclubAd>div.container>a:nth-of-type(1)>img{

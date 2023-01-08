@@ -18,5 +18,5 @@ section.supportFooter>div.supportNum>span,section.supportFooter>div.supportTag>s
     line-height: 40px;
     font-size: 12px;
     font-weight: 400;
-    color: #424750;
+    color: var(--t424750);
 }

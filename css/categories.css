@@ -9,7 +9,7 @@ section.categories>div.head{
     text-align: center;
     font-size: 21px;
     font-weight: 700;
-    color: #0c0c0c;
+    color: var(--c0c0c);
     margin-bottom: 10px;
 }
 section.categories>div.content{
@@ -24,7 +24,7 @@ section.categories>div.content>a{
     text-align: center;
     font-size: 12px;
     font-weight: 700;
-    color: #0c0c0c;
+    color: var(--c0c0c);
 }
 section.categories>div.content>a>img{
     width: 100%;

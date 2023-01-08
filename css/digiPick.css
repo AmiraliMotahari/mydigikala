@@ -75,7 +75,7 @@ section.digiPick>div.content>a>span{
     display: block;
     font-size: 12px;
     font-weight: 700;
-    color: #c0c2c5;
+    color: var(--tc0c2c5);
     position: relative;
     line-height: 20px;
     text-align: left;

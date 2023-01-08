@@ -44,13 +44,13 @@ section.searchingBlock>div.searchBlock>div.mainBlock>div.top>span{
     font-size: 16px;
     font-weight: 400;
     margin-left: 10px;
-    color: rgb(66,71,80);
+    color: var(--t677179);
 }
 section.searchingBlock>div.searchBlock>div.mainBlock>div.top>input[type=text]{
     width: calc(100% - 40px);
     all: unset;
     font-size: 12px;
-    color: rgb(66,71,80);
+    color: var(--t677179);
     line-height: 16px;
 }
 section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender{
@@ -62,12 +62,12 @@ section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender{
 section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender>span{
     font-size: 24px;
     font-weight: 400;
-    color: rgb(161,163,168);
+    color: var(--616368);
     margin-left: 10px;
 }
 section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender>h2{
     display: inline;
     font-size: 15px;
     font-weight: 700;
-    color: #424750;
+    color: var(--t424740);
 }

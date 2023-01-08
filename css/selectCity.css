@@ -41,7 +41,7 @@ section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.head{
 section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.head>h3{
     font-size: 16px;
     font-weight: 700;
-    color: #0c0c0c;
+    color: var(--c0c0c);
 }
 section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.head>label[for=hideCitySelector]{
     display: block;
@@ -52,7 +52,7 @@ section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.head>label[for
     font-size: 40px;
     font-weight: 400;
     line-height: 55px;
-    color: #0c0c0c;
+    color: var(--c0c0c);
     position: absolute;
     top: 0;
     left: 0;
@@ -83,6 +83,7 @@ section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>span{
     width: calc(100% - 40px);
     padding: 12px;
     border-bottom: 1px solid #e0e0e2;
+    color: var(--c0c0c);
 }
 section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>span:last-of-type{
     border: none;
@@ -93,5 +94,5 @@ section.selectCity>div.citySelectorBlock>div.citySelectorMain>div.data>span::aft
     left: 0;
     font-size: 24px;
     font-weight: 900;
-    color: #0c0c0c;
+    color: var(--c0c0c);
 }

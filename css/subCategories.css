@@ -23,12 +23,12 @@ section.subCategories>div.content>div.text{
 section.subCategories>div.content>div.text>h4{
     font-size: 16px;
     font-weight: 700;
-    color: #232933;
+    color: var(--t232933);
 }
 section.subCategories>div.content>div.text>p{
     font-size: 11px;
     font-weight: 400;
-    color: #81858b;
+    color: var(--t81858B);
 }
 section.subCategories>div.content>div.mid{
     position: relative;

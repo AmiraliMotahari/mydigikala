@@ -39,7 +39,7 @@ section.footerTop>div.backToTop>a{
     text-align: center;
     font-size: 12px;
     font-weight: 700;
-    color: rgb(161, 163, 168);
+    color: var(--t616368);
     vertical-align: top;
     line-height: 40px;
     border-radius: 10px;

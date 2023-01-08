@@ -46,7 +46,7 @@ section.menu>nav>div.main>div.right>a{
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
-    color: rgb(67, 71, 79);
+    color: var(--t3f4064);
 }
 section.menu>nav>div.main>div.right>a>span{
     display: inline-block;
@@ -55,7 +55,7 @@ section.menu>nav>div.main>div.right>a>span{
     margin-left: 10px;
     font-size: 14px;
     font-weight: 700;
-    color: rgb(67, 71, 79);
+    color: var(--t677179);
 }
 section.menu>nav>div.main>div.middle{
     width: auto;
@@ -83,7 +83,7 @@ section.menu>nav>div.main>div.middle>div.s1>a{
     font-size: 12px;
     font-weight: 400;
     text-decoration: none;
-    color: rgb(99, 102, 108);
+    color: var(--t990208);
 }
 section.menu>nav>div.main>div.middle>div.s1>a>span{
     display: inline-block;
@@ -92,7 +92,7 @@ section.menu>nav>div.main>div.middle>div.s1>a>span{
     margin-left: 10px;
     font-size: 12px;
     font-weight: 400;
-    color: rgb(161, 163, 168);
+    color: var(--t616368);
 }
 section.menu>nav>div.main>div.left{
     width: auto;
@@ -115,7 +115,7 @@ section.menu>nav>div.main>div.left>div.s1>a{
     font-size: 12px;
     font-weight: 400;
     text-decoration: none;
-    color: rgb(99, 102, 108);
+    color: var(--t990208);
 }
 section.menu>nav>section.menu>nav>div.main>div.right:hover,section.menu>nav>div.main>div.middle>div.s1:hover,section.menu>nav>div.main>div.left>div.s1:hover{
     border-bottom: 2px solid rgb(220, 73, 83);
@@ -134,7 +134,7 @@ section.menu>nav>div.selectCityLabel>label[for=showCitySelector]{
     font-size: 12px;
     font-weight: 400;
     line-height: 40px;
-    color: rgb(42, 47, 50);
+    color: var(--t424750);
     cursor: pointer;
 }
 section.menu>nav>div.selectCityLabel>label[for=showCitySelector]>span{
@@ -142,7 +142,7 @@ section.menu>nav>div.selectCityLabel>label[for=showCitySelector]>span{
     font-size: 12px;
     font-weight: 400;
     line-height: 40px;
-    color: rgb(42, 47, 50);
+    color: var(--t424750);
 }
 /* sub menu */
 /* sub menu */
@@ -186,7 +186,7 @@ section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.righ
     text-align: right;
     text-decoration: none;
     line-height: 52.04px;
-    color: #0c0c0c;
+    color: var(--c0c0c);
     font-weight: 700;
     font-size: 12px;
     font-weight: 700;
@@ -230,7 +230,7 @@ section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.righ
     line-height: 26.04px;
     font-size: 12px;
     font-weight: 700;
-    color: rgb(42, 47, 50);
+    color: var(--t424750);
 }
 section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midTop>a>span{
     display: inline-block;
@@ -261,7 +261,7 @@ section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.righ
     font-size: 12px;
     font-weight: 400;
     text-decoration: none;
-    color: #81858B;
+    color: var(--t81858B);
     transition: 300ms;
 }
 section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.rightel>div.primMiddle>div.midBot>div.col1>div.cel>a>span,
@@ -273,7 +273,7 @@ section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.righ
 }
 section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col1>div.cel:nth-of-type(1)>a,
 section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(1)>a,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(7)>a,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col2>div.cel:nth-of-type(14)>a,section.menu>nav>div.main>div.right>div.submenu>div.prime>div.primRight>div.hovMobile>div.primMiddle>div.midBot>div.col3>div.cel:nth-of-type(6)>a{
-    color: #0C0C0C;
+    color: var(--c0c0c);
     font-size: 14px;
     font-weight: 700;
 }

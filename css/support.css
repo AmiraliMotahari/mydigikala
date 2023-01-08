@@ -95,14 +95,14 @@ section.support>div.supportBlockBackgroond>div.blockMain>div.body>h3{
     font-size: 19px;
     font-weight: 700;
     margin-bottom: 4px;
-    color: black;
+    color: var(--c0c0c);
 }
 section.support>div.supportBlockBackgroond>div.blockMain>div.body>h4{
     text-align: right;
     direction: rtl;
     font-size: 14px;
     font-weight: 700;
-    color: black;
+    color: var(--c0c0c);
 }
 section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content{
     width: 100%;
@@ -127,7 +127,7 @@ section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content>de
     padding: 12px;
     font-size: 15px;
     font-weight: 700;
-    color: black;
+    color: var(--c0c0c);
 }
 section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details>summary::after{
     content: ">";
@@ -136,14 +136,14 @@ section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content>de
     left: 5px;
     font-size: 24px;
     font-weight: 700;
-    color: black;
+    color: var(--c0c0c);
 }
 section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.content>details>p{
     padding: 12px;
     border-top: 1px solid #e0e0e2;
     font-size: 14px;
     font-weight: 400;
-    color: black;
+    color: var(--c0c0c);
 }
 section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom{
     margin: 20px 0 0 0;
@@ -154,7 +154,7 @@ section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom>h4{
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    color: black;
+    color: var(--c0c0c);
 }
 section.support>div.supportBlockBackgroond>div.blockMain>div.body>div.bottom>a{
     text-decoration: none;

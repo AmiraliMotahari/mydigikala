@@ -57,7 +57,7 @@ section.slider3 .swiper-slide {
   section.popular>h2{
     font-size: 21px;
     font-weight: 700;
-    color: #080A38;
+    color: var(--c0c0c);
   }
   section.popular>h2>span{
     color: gold;

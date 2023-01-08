@@ -13,7 +13,7 @@ section.bottomFooter>div.container,section.bottomFooter>div.lastcol{
     text-align: right;
 }
 section.bottomFooter>div.container>p,section.bottomFooter>div.lastcol>h4{
-    color: #424750;
+    color: var(--t424750);
     font-size: 16px;
     font-weight: 700;
     /* padding: 0 0 8px; */
@@ -24,7 +24,7 @@ section.bottomFooter>div.container>a{
     display: block;
     width: 100%;
     text-decoration: none;
-    color: #81858B;
+    color: var(--t81858B);
     font-size: 14px;
     font-weight: 400;
     margin: 0 0 8px;
@@ -46,7 +46,7 @@ section.bottomFooter>div.lastcol>div.socialNetwork>a>span{
     width: 40px;
     height: 40px;
     font-size: 40px;
-    color: #81858B;
+    color: var(--t81858B);
 }
 section.bottomFooter>div.lastcol>form{
     width: 100%;

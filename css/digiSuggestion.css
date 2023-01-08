@@ -9,7 +9,7 @@ section.digiSuggestion>div.head{
     text-align: center;
     font-size: 21px;
     font-weight: 700;
-    color: #0c0c0c;
+    color: var(--c0c0c);
     margin-bottom: 10px;
 }
 section.digiSuggestion>div.content{
@@ -27,6 +27,7 @@ section.digiSuggestion>div.content>a{
     text-align: center;
     /* direction: rtl; */
     background-color: white;
+    border-radius: 10px;
 }
 section.digiSuggestion>div.content>a>div.frame{
     display: inline-block;
