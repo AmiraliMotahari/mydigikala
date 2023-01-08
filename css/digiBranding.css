@@ -2,7 +2,7 @@
 
 section.digiBranding{
     width: 100%;
-    background-color: rgb(224, 224, 226);
+    background-color: var(--softWhite);
     position: relative;
 }
 section.digiBranding>div.containerTop,section.digiBranding>div.containerBottom{
@@ -15,7 +15,7 @@ section.digiBranding>div.containerTop>div.content{
     width: auto;
     height: inherit;
     padding: 0 46px;
-    background-color: rgb(240, 240, 241);
+    background-color: var(--softerWhite);
     vertical-align: top;
 }
 section.digiBranding>div.containerBottom>div.content{
@@ -23,7 +23,7 @@ section.digiBranding>div.containerBottom>div.content{
     width: auto;
     height: inherit;
     padding: 0 35px;
-    background-color: rgb(240, 240, 241);
+    background-color: var(--softerWhite);
     vertical-align: top;
 }
 section.digiBranding>div.containerTop>div.content>a,section.digiBranding>div.containerBottom>div.content>a{

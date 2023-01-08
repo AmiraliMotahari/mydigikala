@@ -54,7 +54,7 @@ section.adOne>div.content>div.right>div.img3>a{
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
-    color: white;
+    color: var(--fff);
     background-color: rgb(93, 171, 50);
     border-radius: 25px;
     padding: 0 10px;
@@ -91,7 +91,7 @@ section.adOne>div.content>div.mid>div.products::after{
     padding: 0 4px;
     background-color: #ef4056;
     border-radius: 25px;
-    color: white;
+    color: var(--fff);
     text-align: center;
     font-size: 12px;
     font-weight: 700;

@@ -3,7 +3,7 @@
 main.login{
     padding: 32px;
     position: absolute;
-    background-color: white;
+    background-color: var(--brightMode);
     border: 1px solid #e0e0e2;
     top: calc(50%);
     left: calc(50%);

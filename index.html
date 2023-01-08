@@ -8,7 +8,7 @@
     <meta name="project" content="Digikala-clone">
     <title>فروشگاه اینترنتی دیجی کالا</title>
     <link rel="icon" href="img/Digi_icon.png">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="FontAwesome.Pro.6.2.1/css/all.css">
     <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
 </head>
@@ -72,6 +72,9 @@
                 <div class="search">
                     <label for="showSearchBox"><span class="fa-solid fa-magnifying-glass"></span>جستجو</label>
                 </div>
+            </div>
+            <div class="darkmode">
+                <button id="darkmode"><span id="drk" class="fa-regular fa-moon-stars"></span></button>
             </div>
             <div class="searchBoxLeft">
                 <div class="login">
@@ -2674,6 +2677,40 @@ var swiper3 = new Swiper('.mySwiper3', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+    });
+
+    //darkmode
+    let drk = document.querySelector(':root');
+    let rs = getComputedStyle(drk);
+    let fdark = document.getElementById("darkmode");
+    let sdrk = document.getElementById("drk");
+    let flag=true;
+
+    fdark.addEventListener("click",function(){
+        if(flag === true){
+            drk.style.setProperty('--brightMode', '#333');
+            drk.style.setProperty('--c0c0c', '#fff');
+            drk.style.setProperty('--t424750', '#fff');
+            drk.style.setProperty('--t232933', '#fff');
+
+            this.style.backgroundColor="rgb(240,240,241)";
+            sdrk.classList.remove("fa-moon-stars");
+            sdrk.classList.add("fa-sun");
+            
+            flag = false;
+        }
+        else{
+            drk.style.setProperty('--brightMode', '#fff');
+            drk.style.setProperty('--c0c0c', '#0c0c0c');
+            drk.style.setProperty('--t424750', '#424750');
+            drk.style.setProperty('--t232933', '#232933');
+
+            this.style.backgroundColor="";
+            sdrk.classList.remove("fa-sun");
+            sdrk.classList.add("fa-moon-stars");
+
+            flag=true;
+        }
     });
      </script>
 </body>

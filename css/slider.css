@@ -13,7 +13,7 @@ section.slider{
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: var(--brightMode);
 
     /* Center slide text vertically */
     display: -webkit-box;

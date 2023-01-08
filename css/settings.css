@@ -6,3 +6,19 @@
     box-sizing: border-box;
     font-family: faFont, sans-serif
 }
+
+:root{
+    --brightMode: white;
+    --softWhite: rgb(224,224,226);
+    --softerWhite: rgb(240,240,241);
+    --darkMode: #333;
+    --darkDark: #111;
+    --softDark: #555;
+    --c0c0c: #0c0c0c;
+    --fff: #fff;
+    --t424750: #424740;
+    --t232933: #232933;
+}
+body{
+    background-color: var(--brightMode);
+}

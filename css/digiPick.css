@@ -14,7 +14,7 @@ section.digiPick>div.head>h3{
     text-align: center;
     font-size: 21px;
     font-weight: 700;
-    color: #0c0c0c;
+    color: var(--c0c0c);
 }
 section.digiPick>div.head>h3>span{
     display: inline-block;
@@ -32,18 +32,18 @@ section.digiPick>div.content>a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: white;
+    background-color: var(--brightMode);
     position: relative;
 }
 section.digiPick>div.content>a>img{
-    width: 150px;
-    height: 150px;
+    width: 77.5%;
+    height: 77.5%;
     object-fit: cover;
 }
 section.digiPick>div.content>a>h4{
     font-size: 16px;
     font-weight: 700;
-    color: #232933;
+    color: var(--t232933);
     position: relative;
     line-height: 20px;
     text-align: left;
@@ -64,6 +64,7 @@ section.digiPick>div.content>a>h4::after{
 section.digiPick>div.content>a>h4::before{
     background: url('../img/toman.png'), center center no-repeat; 
     background-size: cover;
+    border-radius: 10px;
     width: 20px;
     height: 20px;
     content: " ";
