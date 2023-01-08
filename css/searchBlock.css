@@ -26,7 +26,7 @@ section.searchingBlock>div.searchBlock>label[for=hideSearchBox]{
 }
 section.searchingBlock>div.searchBlock>div.mainBlock{
     width: calc(100% / 2.56);
-    background-color: var(--darkMode);
+    background-color: var(--brightMode);
     position: absolute;
     top: -96px;
     right: 148px;
@@ -62,12 +62,12 @@ section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender{
 section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender>span{
     font-size: 24px;
     font-weight: 400;
-    color: var(--616368);
+    color: var(--t616368);
     margin-left: 10px;
 }
 section.searchingBlock>div.searchBlock>div.mainBlock>div.searchRecomender>h2{
     display: inline;
     font-size: 15px;
     font-weight: 700;
-    color: var(--t424740);
+    color: var(--t424750);
 }
