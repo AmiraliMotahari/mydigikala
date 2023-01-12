@@ -1,0 +1,120 @@
+@import 'settings.css';
+
+section.digiPopular{
+    margin: 12px 96px;
+    padding: 10px 16px;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    height: 370px;
+}
+section.digiPopular>h2{
+    color: #0c0c0c;
+    font-size: 21px;
+    font-weight: 700;
+    direction: rtl;
+}
+section.digiPopular>h2>span{
+    color: #f9a825;
+    font-size: 24px;
+    margin-left: 10px;
+}
+section.digiPopular>a{
+    position: absolute;
+    top: 31px;
+    left: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #19bfd3;
+}
+section.digiPopular>div.wrapper{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+section.digiPopular>div.wrapper>div.container{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    direction: rtl;
+    text-align: right;
+    grid-gap: 40px;
+}
+section.digiPopular>div.wrapper>div.container>div.content{
+    width: 100%;
+    height: 100%;
+}
+section.digiPopular>div.wrapper>div.container>div.content>a{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 2fr 1fr 5fr;
+    align-items: center;
+}
+section.digiPopular>div.wrapper>div.container>div.content>a>img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.digiPopular>div.wrapperr>div.container>div.content>a>span{
+    display: inline-block;
+    text-align: center;
+}
+section.digiPopular>div.wrapper>div.mid{
+    position: absolute;
+    top: 0;
+    left: -105%;
+    background-color: blue;
+    transition: 300ms;
+}
+section.digiPopular>div.wrapper>div.left{
+    position: absolute;
+    top: 0;
+    left: -105%;
+    background-color: rgb(179, 255, 0);
+    transition: 300ms;
+}
+section.digiPopular>div.wrapper>div.right{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 300ms;
+}
+section.digiPopular>div.wrapper>button[id=rightButton]{
+    all: unset;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 255);
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(0,-50%);
+    z-index: 2;
+    cursor: pointer;
+}
+section.digiPopular>div.wrapper>button[id=leftButton]{
+    all: unset;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 255);
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translate(0,-50%);
+    z-index: 2;
+    cursor: pointer;
+
+}
