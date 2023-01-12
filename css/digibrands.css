@@ -1,0 +1,37 @@
+@import 'settings.css';
+
+section.digiBrands{
+    width: 100%;
+}
+section.digiBrands>div.container{
+    display: grid;
+    grid-template-columns: repeat(8, 8fr);
+    grid-auto-rows: minmax(80px,auto);
+}
+section.digiBrands>div.container:last-of-type{
+    grid-template-columns: repeat(9, 9fr);
+}
+section.digiBrands>div.container>div.content{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    background-color: var(--softerWhite);
+    border-left: 1px solid var(--softWhite);
+    border-bottom: 1px solid var(--softWhite);
+}
+section.digiBrands>div.container>div.content:first-of-type{
+    border-left: unset;
+}
+section.digiBrands>div.container>div.content>a{
+    text-align: center;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: calc(50%);
+    transform: translateY(-50%)
+}
+section.digiBrands>div.container>div.content>a>img{
+    display: inline-block;
+    height: 20px;
+    object-fit: contain;
+}
