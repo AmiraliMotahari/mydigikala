@@ -65,7 +65,7 @@ section.searchBox>div.searchArea>div.search>span{
 }
 section.searchBox>div.searchArea>div.search>label[for=showSearchBox]{
     display: inline-block;
-    color: var(--t81858b);
+    color: var(--t81858B);
     font-size: 12px;
     font-weight: 400px;
     text-align: right;
