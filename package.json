@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Amirali Motahari",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }
